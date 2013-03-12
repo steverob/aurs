@@ -6,7 +6,7 @@ require 'csv'
 
 class Schools9
   attr_accessor :results
-  
+
   def initialize(url,start,ending)
     @url=url
     @start=start.to_i
@@ -17,7 +17,7 @@ class Schools9
     generate_reg_nos
     process_url
   end
-  
+
   protected
     def generate_reg_nos
       reg=@start
@@ -26,22 +26,22 @@ class Schools9
         reg+=1
       end
     end
-    
+
     def process_url
       @url.gsub!(File.extname(@url),".aspx")
     end
-  
-  public 
-  
+
+  public
+
   def scrape
-  
+
     @reg_nos.each do |reg_no|
       doc=Nokogiri::HTML(open("#{@url}?htno=#{reg_no}"))
       cells=doc.css("td")
 
       @results[reg_no]={}
       @results[reg_no][:grades]={}
-      
+
       cells.length.times do |i|
         if cells[i].text==" Hall Ticket No "
           next
@@ -65,6 +65,5 @@ class Schools9
       @count+=1
     end
   end
-  
-end
 
+end

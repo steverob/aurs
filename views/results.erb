@@ -4,7 +4,7 @@
       <div class="page-header">
         <h3>Results for given register numbers</h3>
       </div>
-      <legend><%= @start %> to <%= @end %></legend>
+      <legend><strong><%= @start %></strong> to <strong><%= @end %></strong></legend>
       <% @results.each do |reg,res| %>
         <div class="result">
           <table class="table table-condensed table-hover table-bordered">
@@ -38,5 +38,3 @@
     <br>
     <a href="/" class="btn">Back to home </a>
 </div>
-
-  

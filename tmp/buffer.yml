@@ -1,0 +1,457 @@
+---
+23009104071:
+  :grades:
+    CS2401:
+      :grade: B
+      :result: PASS
+    CS2402:
+      :grade: B
+      :result: PASS
+    CS2403:
+      :grade: C
+      :result: PASS
+    CS2405:
+      :grade: S
+      :result: PASS
+    CS2406:
+      :grade: S
+      :result: PASS
+    IT2024:
+      :grade: C
+      :result: PASS
+    IT2032:
+      :grade: C
+      :result: PASS
+    MG2452:
+      :grade: C
+      :result: PASS
+  :name: SELWYN STEVE ROBINSON R
+23009104072:
+  :grades:
+    CS2203:
+      :grade: U
+      :result: RA
+    CS2204:
+      :grade: E
+      :result: PASS
+    CS2251:
+      :grade: U
+      :result: RA
+    CS2253:
+      :grade: U
+      :result: RA
+    CS2254:
+      :grade: U
+      :result: RA
+    CS2255:
+      :grade: U
+      :result: RA
+    CS2305:
+      :grade: U
+      :result: RA
+    CS2352:
+      :grade: U
+      :result: RA
+    CS2354:
+      :grade: U
+      :result: RA
+    CS2401:
+      :grade: U
+      :result: RA
+    CS2402:
+      :grade: E
+      :result: PASS
+    CS2403:
+      :grade: U
+      :result: RA
+    CS2405:
+      :grade: B
+      :result: PASS
+    CS2406:
+      :grade: C
+      :result: PASS
+    EC2151:
+      :grade: U
+      :result: RA
+    IT2024:
+      :grade: E
+      :result: PASS
+    IT2032:
+      :grade: E
+      :result: PASS
+    IT2353:
+      :grade: U
+      :result: RA
+    MA2211:
+      :grade: U
+      :result: RA
+    MA2262:
+      :grade: U
+      :result: RA
+    MG2452:
+      :grade: U
+      :result: RA
+    PH2161:
+      :grade: U
+      :result: RA
+  :name: SHAKTHIVEL M
+23009104073:
+  :grades:
+    CS2401:
+      :grade: C
+      :result: PASS
+    CS2402:
+      :grade: C
+      :result: PASS
+    CS2403:
+      :grade: B
+      :result: PASS
+    CS2405:
+      :grade: S
+      :result: PASS
+    CS2406:
+      :grade: S
+      :result: PASS
+    IT2024:
+      :grade: C
+      :result: PASS
+    IT2032:
+      :grade: C
+      :result: PASS
+    MG2452:
+      :grade: B
+      :result: PASS
+  :name: SHALINI G
+23009104074:
+  :grades:
+    CS2401:
+      :grade: C
+      :result: PASS
+    CS2402:
+      :grade: C
+      :result: PASS
+    CS2403:
+      :grade: A
+      :result: PASS
+    CS2405:
+      :grade: A
+      :result: PASS
+    CS2406:
+      :grade: S
+      :result: PASS
+    IT2024:
+      :grade: B
+      :result: PASS
+    IT2032:
+      :grade: B
+      :result: PASS
+    MG2452:
+      :grade: B
+      :result: PASS
+  :name: SHALINI N
+23009104075:
+  :grades:
+    CS2401:
+      :grade: C
+      :result: PASS
+    CS2402:
+      :grade: B
+      :result: PASS
+    CS2403:
+      :grade: C
+      :result: PASS
+    CS2405:
+      :grade: A
+      :result: PASS
+    CS2406:
+      :grade: A
+      :result: PASS
+    IT2024:
+      :grade: C
+      :result: PASS
+    IT2032:
+      :grade: B
+      :result: PASS
+    MG2452:
+      :grade: A
+      :result: PASS
+  :name: SHILPA K
+23009104076:
+  :grades:
+    CS2401:
+      :grade: B
+      :result: PASS
+    CS2402:
+      :grade: C
+      :result: PASS
+    CS2403:
+      :grade: E
+      :result: PASS
+    CS2405:
+      :grade: A
+      :result: PASS
+    CS2406:
+      :grade: C
+      :result: PASS
+    IT2024:
+      :grade: D
+      :result: PASS
+    IT2032:
+      :grade: C
+      :result: PASS
+    MA2264:
+      :grade: C
+      :result: PASS
+    MG2452:
+      :grade: B
+      :result: PASS
+  :name: SIVASANKAR V
+23009104077:
+  :grades:
+    CS2401:
+      :grade: U
+      :result: RA
+    CS2402:
+      :grade: C
+      :result: PASS
+    CS2403:
+      :grade: C
+      :result: PASS
+    CS2405:
+      :grade: S
+      :result: PASS
+    CS2406:
+      :grade: A
+      :result: PASS
+    IT2024:
+      :grade: U
+      :result: RA
+    IT2032:
+      :grade: E
+      :result: PASS
+    MG2452:
+      :grade: C
+      :result: PASS
+  :name: SNEHA M
+23009104078:
+  :grades:
+    CS2401:
+      :grade: B
+      :result: PASS
+    CS2402:
+      :grade: B
+      :result: PASS
+    CS2403:
+      :grade: C
+      :result: PASS
+    CS2405:
+      :grade: A
+      :result: PASS
+    CS2406:
+      :grade: A
+      :result: PASS
+    IT2024:
+      :grade: B
+      :result: PASS
+    IT2032:
+      :grade: C
+      :result: PASS
+    MG2452:
+      :grade: B
+      :result: PASS
+  :name: SREE NIVETHA D
+23009104079:
+  :grades:
+    CS2401:
+      :grade: C
+      :result: PASS
+    CS2402:
+      :grade: C
+      :result: PASS
+    CS2403:
+      :grade: E
+      :result: PASS
+    CS2405:
+      :grade: S
+      :result: PASS
+    CS2406:
+      :grade: A
+      :result: PASS
+    IT2024:
+      :grade: C
+      :result: PASS
+    IT2032:
+      :grade: E
+      :result: PASS
+    MG2452:
+      :grade: C
+      :result: PASS
+  :name: SRIVATHSAN B
+23009104080:
+  :grades:
+    CS2401:
+      :grade: C
+      :result: PASS
+    CS2402:
+      :grade: C
+      :result: PASS
+    CS2403:
+      :grade: B
+      :result: PASS
+    CS2405:
+      :grade: A
+      :result: PASS
+    CS2406:
+      :grade: A
+      :result: PASS
+    IT2024:
+      :grade: A
+      :result: PASS
+    IT2032:
+      :grade: B
+      :result: PASS
+    MG2452:
+      :grade: B
+      :result: PASS
+  :name: STEPHEN JOSEPH S
+23009104081:
+  :grades:
+    CS2401:
+      :grade: B
+      :result: PASS
+    CS2402:
+      :grade: A
+      :result: PASS
+    CS2403:
+      :grade: B
+      :result: PASS
+    CS2405:
+      :grade: S
+      :result: PASS
+    CS2406:
+      :grade: S
+      :result: PASS
+    IT2024:
+      :grade: A
+      :result: PASS
+    IT2032:
+      :grade: B
+      :result: PASS
+    MG2452:
+      :grade: B
+      :result: PASS
+  :name: SUBASHINI S
+23009104082:
+  :grades:
+    CS2401:
+      :grade: C
+      :result: PASS
+    CS2402:
+      :grade: E
+      :result: PASS
+    CS2403:
+      :grade: U
+      :result: RA
+    CS2405:
+      :grade: A
+      :result: PASS
+    CS2406:
+      :grade: A
+      :result: PASS
+    IT2024:
+      :grade: D
+      :result: PASS
+    IT2032:
+      :grade: C
+      :result: PASS
+    MG2452:
+      :grade: C
+      :result: PASS
+  :name: SUBHASHINI S
+23009104083:
+  :grades:
+    CS2401:
+      :grade: C
+      :result: PASS
+    CS2402:
+      :grade: A
+      :result: PASS
+    CS2403:
+      :grade: S
+      :result: PASS
+    CS2405:
+      :grade: S
+      :result: PASS
+    CS2406:
+      :grade: S
+      :result: PASS
+    IT2024:
+      :grade: B
+      :result: PASS
+    IT2032:
+      :grade: A
+      :result: PASS
+    MG2452:
+      :grade: B
+      :result: PASS
+  :name: SUGANYA R
+23009104084:
+  :grades:
+    CS2401:
+      :grade: C
+      :result: PASS
+    CS2402:
+      :grade: C
+      :result: PASS
+    CS2403:
+      :grade: U
+      :result: RA
+    CS2405:
+      :grade: S
+      :result: PASS
+    CS2406:
+      :grade: A
+      :result: PASS
+    IT2024:
+      :grade: D
+      :result: PASS
+    IT2032:
+      :grade: B
+      :result: PASS
+    MG2452:
+      :grade: C
+      :result: PASS
+  :name: SURENDRAN S
+23009104085:
+  :grades:
+    CS2303:
+      :grade: D
+      :result: PASS
+    CS2401:
+      :grade: D
+      :result: PASS
+    CS2402:
+      :grade: D
+      :result: PASS
+    CS2403:
+      :grade: E
+      :result: PASS
+    CS2405:
+      :grade: A
+      :result: PASS
+    CS2406:
+      :grade: A
+      :result: PASS
+    IT2024:
+      :grade: E
+      :result: PASS
+    IT2032:
+      :grade: U
+      :result: RA
+    IT2353:
+      :grade: U
+      :result: RA
+    MG2452:
+      :grade: D
+      :result: PASS
+  :name: SURENDRANATH BHIMINENI
