@@ -1,0 +1,34 @@
+<div class="row">
+  <br />
+  <div class="span8 offset2">
+    <div class="page-header">
+      <h3>Scrape from Schools9.com</h3>
+    </div>
+
+    <legend>Please provide required details</legend>
+    <form class="form-horizontal" action="/schools9_scrape" method="POST">
+      <div class="control-group">
+        <label class="control-label">Results URL</label>
+        <div class="controls">
+          <input type="text" class="input" name="url" placeholder="Enter URL" />
+        </div>
+      </div>
+      <hr />
+      <div class="control-group">
+        <label class="control-label">Starting Reg. no. </label>
+        <div class="controls">
+          <input type="text" class="input" name="start" placeholder="Enter first Register Number" />
+        </div>
+      </div>
+      <div class="control-group">
+        <label class="control-label">Ending Reg. no. </label>
+        <div class="controls">
+          <input type="text" class="input" name="end" placeholder="Enter last Register Number" />
+        </div>
+      </div>
+      <div class="form-actions">
+        <button type="submit" class="btn btn-primary">Scrape!</button>
+      </div>
+    </form>
+  </div>
+</div>

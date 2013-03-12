@@ -1,0 +1,42 @@
+<div class="row">
+    <br />
+    <div class="span8 offset2">
+      <div class="page-header">
+        <h3>Results for given register numbers</h3>
+      </div>
+      <legend><%= @start %> to <%= @end %></legend>
+      <% @results.each do |reg,res| %>
+        <div class="result">
+          <table class="table table-condensed table-hover table-bordered">
+            <thead>
+              <tr>
+                <th>Name:</th>
+                <td colspan="2"><%=res[:name] %></td>
+              </tr>
+              <tr>
+                <th>Reg:</th>
+                <td colspan="2"><%=reg %></td>
+              </tr>
+              <tr>
+                <th>Subject Code</th>
+                <th>Grade</th>
+                <th>Result</th>
+              </tr>
+            </thead>
+            <% res[:grades].each do |code,grade| %>
+              <tr>
+                <td><%=code %></td>
+                <td><%=grade[:grade] %></td>
+                <td><%=grade[:result] %></td>
+              </tr>
+            <%end%>
+          </table>
+        </div>
+        <hr/>
+      <%end%>
+    </div>
+    <br>
+    <a href="/" class="btn">Back to home </a>
+</div>
+
+  
