@@ -33,7 +33,14 @@ get "/schools9_details" do
   erb :schools9_details
 end
 
-post '/schools9_scrape' do
+post "/wait" do
+  @start=params[:start]
+  @ending=params[:end]
+  @url=params[:url]
+  erb :wait
+end
+
+get '/schools9_scrape' do
   scraper=Schools9.new(params[:url],params[:start],params[:end])
   scraper.scrape
   session[:start]=params[:start]
@@ -43,12 +50,19 @@ post '/schools9_scrape' do
 end
 
 get "/results" do
-
   @results=read_from_buffer
   @start=session[:start]
   @end=session[:end]
+  ToXls.write_to_xls
   erb :results
+end
+
+get "/download_xls" do
+  file="tmp/results.xls"
+  send_file(file, :disposition => 'attachment', :filename => "#{session[:start]}_#{session[:end]}.xls")
+  redirect to back
 end
 
 
 require_relative 'lib/schools9'
+require_relative 'lib/to_xls'

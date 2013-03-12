@@ -1,1 +1,27 @@
-Please wait.. scraping..
+
+
+<script type="text/javascript">
+   $(function() {
+      var url=$('#url').html();
+      $.get( url, function(data) {
+        window.location.replace("/results")
+      });
+   });
+</script>
+<div class="row">
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+
+  <div class="span8 offset2">
+    <legend>Scraping results from Schools9.com...</legend>
+    <h6>Please wait...</h6>
+    <br/>
+    <div class="loading"></div>
+  </div>
+</div>
+<div style="display:none" id="url">
+<%= "/schools9_scrape?url=#{@url}&start=#{@start}&end=#{@ending}" %>
+</div>

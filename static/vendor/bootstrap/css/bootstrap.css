@@ -2309,7 +2309,9 @@ table th[class*="span"],
   background-image: url("../img/glyphicons-halflings-white.png");
 }
 
+
 .icon-glass {
+
   background-position: 0      0;
 }
 
@@ -6156,3 +6158,13 @@ a.badge:focus {
 .affix {
   position: fixed;
 }
+
+@media print
+    {
+      table { page-break-after:auto }
+      tr    { page-break-inside:avoid; page-break-after:auto }
+      td    { page-break-inside:avoid; page-break-after:auto }
+      thead { display:table-header-group }
+      tfoot { display:table-footer-group }
+      .hidden {display:none}
+    }

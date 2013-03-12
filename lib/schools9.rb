@@ -62,6 +62,9 @@ class Schools9
           @results[reg_no][:grades][cells[i].text]={:grade=>cells[i+1].text,:result=>cells[i+2].text}
         end
       end
+      if @results[reg_no][:name].nil?
+        @results.delete(reg_no)
+      end
       @count+=1
     end
   end

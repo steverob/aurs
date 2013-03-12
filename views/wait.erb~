@@ -1,34 +1,24 @@
+
+
+<script type="text/javascript">
+   $(function() {
+      var url=$('#url').html();
+      $.get( url, function(data) {
+        window.location.replace("/results")
+      });
+   });
+</script>
 <div class="row">
   <br />
+  <br />
+  <br />
   <div class="span8 offset2">
-    <div class="page-header">
-      <h3>Scrape from Schools9.com</h3>
-    </div>
-
-    <legend>Please provide required details</legend>
-    <form class="form-horizontal" action="/schools9_scrape" method="POST">
-      <div class="control-group">
-        <label class="control-label">Results URL</label>
-        <div class="controls">
-          <input type="text" class="input" name="url" placeholder="Enter URL" />
-        </div>
-      </div>
-      <hr />
-      <div class="control-group">
-        <label class="control-label">Starting Reg. no. </label>
-        <div class="controls">
-          <input type="text" class="input" name="start" placeholder="Enter first Register Number" />
-        </div>
-      </div>
-      <div class="control-group">
-        <label class="control-label">Ending Reg. no. </label>
-        <div class="controls">
-          <input type="text" class="input" name="end" placeholder="Enter last Register Number" />
-        </div>
-      </div>
-      <div class="form-actions">
-        <button type="submit" class="btn btn-primary">Scrape!</button>
-      </div>
-    </form>
+    <legend>Scraping results from Schools9.com...</legend>
+    <h6>Please wait...</h6>
+    <br/>
+    <div class="loading"></div>
   </div>
+</div>
+<div style="display:none" id="url">
+<%= "/schools9_scrape?url=#{@url}&start=#{@start}&end=#{@ending}" %>
 </div>
