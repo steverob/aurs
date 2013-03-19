@@ -3,7 +3,10 @@ require 'sinatra'
 require 'yaml'
 require 'json'
 
-
+use Rack::Auth::Basic, "Restricted Area" do |username, password|
+  auth=YAML.load_file('config.yml')
+  [username, password] == [auth["username"], auth["password"]]
+end
 
 configure do
   set :public_folder, Proc.new { File.join(root, "static") }
@@ -30,6 +33,7 @@ post '/details' do
   elsif params[:site]=="chennaieducation"
     redirect to "/chennai_edu_details"
   end
+  erb "<br /><br /><br />Support not available yet. If you're interested in writing a class for this website please refer github: <a href='http://github.com/steverob/aurs'>steverob/aurs</a>"
 end
 
 get "/schools9_details" do
@@ -86,6 +90,9 @@ get "/download_xls" do
   redirect to back
 end
 
+get "/about" do
+  erb :about
+end
 
 require_relative 'lib/schools9'
 require_relative 'lib/chennai_results'

@@ -7,7 +7,7 @@
       });
       setTimeout(function(){
         $('#redirect').html('If you donot get redirected to results page after <strong>10 minutes</strong>, <a href="/results">please click here...</a>');
-        },400000);
+        },300000);
       var url=$('#url').html();
       $.get( url, function(data) {
         obj=JSON.parse(data);
