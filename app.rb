@@ -1,6 +1,7 @@
 
 require 'sinatra'
 require 'yaml'
+require 'json'
 
 
 
@@ -26,6 +27,8 @@ end
 post '/details' do
   if params[:site]=="schools9"
     redirect to "/schools9_details"
+  elsif params[:site]=="chennaieducation"
+    redirect to "/chennai_edu_details"
   end
 end
 
@@ -33,10 +36,21 @@ get "/schools9_details" do
   erb :schools9_details
 end
 
+get "/chennai_edu_details" do
+  erb :chennai_edu_details
+end
+
 post "/wait" do
   @start=params[:start]
   @ending=params[:end]
-  @url=params[:url]
+  if params[:site]=="schools9"
+    @url="/schools9_scrape?url=#{params[:url]}&start=#{@start}&end=#{@ending}"
+  elsif params[:site]=="chennai_edu"
+    if File.extname(params[:url])==""
+      redirect to "/chennai_edu_details"
+    end
+    @url="/chennai_edu_scrape?url=#{params[:url]}&start=#{@start}&end=#{@ending}"
+  end
   erb :wait
 end
 
@@ -46,7 +60,16 @@ get '/schools9_scrape' do
   session[:start]=params[:start]
   session[:end]=params[:end]
   write_to_buffer(scraper.results,0)
-  redirect to "/results"
+  {:count=>scraper.results.keys.length}.to_json
+end
+
+get '/chennai_edu_scrape' do
+  scraper=ChennaiResults.new(params[:url],params[:start],params[:end])
+  scraper.scrape
+  session[:start]=params[:start]
+  session[:end]=params[:end]
+  write_to_buffer(scraper.results,0)
+  {:count=>scraper.results.keys.length}.to_json
 end
 
 get "/results" do
@@ -63,6 +86,10 @@ get "/download_xls" do
   redirect to back
 end
 
+get "/about" do
+  erb :about
+end
 
 require_relative 'lib/schools9'
+require_relative 'lib/chennai_results'
 require_relative 'lib/to_xls'

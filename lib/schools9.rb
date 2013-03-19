@@ -54,7 +54,7 @@ class Schools9
           next
         elsif cells[i].text==" Course " || cells[i].text=~ /B.E.(.*)/ || cells[i].text=="Marks Details" || cells[i].text=="Subject" || cells[i].text=="Grade" || cells[i].text=="Status"
           next
-        elsif cells[i].text=="PASS" || cells[i].text=="RA" || cells[i].text=="A"|| cells[i].text=="B"|| cells[i].text=="C"|| cells[i].text=="D"|| cells[i].text=="E"|| cells[i].text=="S"|| cells[i].text=="U"|| cells[i].text=~ /WH(.*)/ || cells[i].text=="AB"|| cells[i].text=="W"|| cells[i].text=="SA" || cells[i].text=="SE"|| cells[i].text=="A.B"|| cells[i].text=="I"|| cells[i].text=="WD"|| cells[i].text==" "
+        elsif cells[i].text=="PASS" || cells[i].text=="RA" || cells[i].text=="A"|| cells[i].text=="B"|| cells[i].text=="C"|| cells[i].text=="D"|| cells[i].text=="E"|| cells[i].text=="S"|| cells[i].text=="U"|| cells[i].text=~ /WH(.*)/ || cells[i].text=="AB"|| cells[i].text=="W"|| cells[i].text=="SA" || cells[i].text=="SE"|| cells[i].text=="A.B"|| cells[i].text=="I"|| cells[i].text=="WD"|| cells[i].text==" "|| cells[i].text=="BRK"
           next
         elsif cells[i+1].text==" Course "
           next

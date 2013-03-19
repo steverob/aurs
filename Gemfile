@@ -6,6 +6,8 @@ gem 'thin'
 gem 'rb-inotify'
 # The rerun command restarts the app if your files change
 gem "rerun"
+gem 'mechanize'
+gem 'json'
 
 gem 'spreadsheet'
 

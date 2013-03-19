@@ -2,9 +2,17 @@
 
 <script type="text/javascript">
    $(function() {
+      $.ajaxSetup({
+        timeout:600000
+      });
+      setTimeout(function(){
+        $('#redirect').html('If you donot get redirected to results page after <strong>10 minutes</strong>, <a href="/results">please click here...</a>');
+        },300000);
       var url=$('#url').html();
       $.get( url, function(data) {
-        window.location.replace("/results")
+        obj=JSON.parse(data);
+        alert(obj.count);
+        window.location.replace("/results");
       });
    });
 </script>
@@ -16,14 +24,14 @@
   <br />
 
   <div class="span8 offset2">
-    <legend>Scraping results from Schools9.com...</legend>
+    <legend>Scraping results...</legend>
     <h6>Please wait...</h6>
     <br/>
     <div class="loading"></div>
     <br />
-    <p>If you donot get redirected to results page after 10 minutes, <a href="/results">please click here...</a></p>
+    <p id="redirect"></p>
   </div>
 </div>
 <div style="display:none" id="url">
-<%= "/schools9_scrape?url=#{@url}&start=#{@start}&end=#{@ending}" %>
+<%= @url %>
 </div>
