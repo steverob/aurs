@@ -1,274 +1,271 @@
 ---
-23009104001:
+211512104001:
   :grades:
-    CS2401:
+    CY2111:
+      :grade: E
+      :result: PASS
+    GE2111:
       :grade: C
       :result: PASS
-    CS2402:
-      :grade: C
-      :result: PASS
-    CS2403:
-      :grade: B
-      :result: PASS
-    CS2405:
-      :grade: C
-      :result: PASS
-    CS2406:
-      :grade: S
-      :result: PASS
-    IT2024:
+    GE2112:
       :grade: D
       :result: PASS
-    IT2032:
-      :grade: E
-      :result: PASS
-    MG2452:
-      :grade: E
-      :result: PASS
-  :name: AASHIQ HAMEED M
-23009104002:
-  :grades:
-    CS2401:
-      :grade: C
-      :result: PASS
-    CS2402:
-      :grade: C
-      :result: PASS
-    CS2403:
-      :grade: C
-      :result: PASS
-    CS2405:
-      :grade: S
-      :result: PASS
-    CS2406:
-      :grade: S
-      :result: PASS
-    IT2024:
-      :grade: C
-      :result: PASS
-    IT2032:
-      :grade: C
-      :result: PASS
-    MG2452:
-      :grade: B
-      :result: PASS
-  :name: AJAY SIMHAN V
-23009104003:
-  :grades:
-    CS2401:
-      :grade: E
-      :result: PASS
-    CS2402:
-      :grade: C
-      :result: PASS
-    CS2403:
-      :grade: D
-      :result: PASS
-    CS2405:
-      :grade: B
-      :result: PASS
-    CS2406:
+    GE2115:
       :grade: A
       :result: PASS
-    IT2024:
-      :grade: C
-      :result: PASS
-    IT2032:
-      :grade: D
-      :result: PASS
-    MG2452:
-      :grade: E
-      :result: PASS
-  :name: ANGELINE C
-23009104004:
-  :grades:
-    CS2401:
-      :grade: B
-      :result: PASS
-    CS2402:
-      :grade: C
-      :result: PASS
-    CS2403:
+    GE2116:
       :grade: A
       :result: PASS
-    CS2405:
-      :grade: B
-      :result: PASS
-    CS2406:
-      :grade: S
-      :result: PASS
-    IT2024:
-      :grade: C
-      :result: PASS
-    IT2032:
-      :grade: C
-      :result: PASS
-    MG2452:
-      :grade: D
-      :result: PASS
-  :name: ANJANATCHI V T
-23009104005:
-  :grades:
-    CS2401:
-      :grade: C
-      :result: PASS
-    CS2402:
-      :grade: C
-      :result: PASS
-    CS2403:
-      :grade: C
-      :result: PASS
-    CS2405:
-      :grade: B
-      :result: PASS
-    CS2406:
-      :grade: S
-      :result: PASS
-    IT2024:
-      :grade: C
-      :result: PASS
-    IT2032:
-      :grade: B
-      :result: PASS
-    MG2452:
-      :grade: D
-      :result: PASS
-  :name: ANUSHA N
-23009104006:
-  :grades:
-    CS2401:
-      :grade: D
-      :result: PASS
-    CS2402:
-      :grade: C
-      :result: PASS
-    CS2403:
+    HS2111:
       :grade: E
       :result: PASS
-    CS2405:
-      :grade: S
-      :result: PASS
-    CS2406:
-      :grade: S
-      :result: PASS
-    IT2024:
-      :grade: D
-      :result: PASS
-    IT2032:
-      :grade: C
-      :result: PASS
-    MG2452:
-      :grade: B
-      :result: PASS
-  :name: ARUN KUMAR H
-23009104007:
-  :grades:
-    CS2401:
+    MA2111:
       :grade: U
       :result: RA
-    CS2402:
-      :grade: C
-      :result: PASS
-    CS2403:
+    PH2111:
       :grade: E
       :result: PASS
-    CS2405:
-      :grade: C
-      :result: PASS
-    CS2406:
-      :grade: B
-      :result: PASS
-    IT2024:
+  :name: ABINESH M
+211512104002:
+  :grades:
+    CY2111:
+      :grade: U
+      :result: RA
+    GE2111:
       :grade: E
       :result: PASS
-    IT2032:
-      :grade: C
-      :result: PASS
-    MA2262:
+    GE2112:
       :grade: U
       :result: RA
-    MG2452:
+    GE2115:
       :grade: B
       :result: PASS
-  :name: ASHVANTH V
-23009104008:
-  :grades:
-    CS2401:
-      :grade: B
+    GE2116:
+      :grade: A
       :result: PASS
-    CS2402:
-      :grade: C
+    HS2111:
+      :grade: E
       :result: PASS
-    CS2403:
-      :grade: B
-      :result: PASS
-    CS2405:
-      :grade: B
-      :result: PASS
-    CS2406:
-      :grade: S
-      :result: PASS
-    IT2024:
-      :grade: C
-      :result: PASS
-    IT2032:
-      :grade: C
-      :result: PASS
-    MG2452:
-      :grade: C
-      :result: PASS
-  :name: ASWINI R
-23009104009:
-  :grades:
-    CS2401:
-      :grade: C
-      :result: PASS
-    CS2402:
-      :grade: B
-      :result: PASS
-    CS2403:
+    MA2111:
       :grade: U
       :result: RA
-    CS2405:
-      :grade: B
+    PH2111:
+      :grade: U
+      :result: RA
+  :name: AJAY K A
+211512104003:
+  :grades:
+    CY2111:
+      :grade: E
       :result: PASS
-    CS2406:
+    GE2111:
+      :grade: U
+      :result: RA
+    GE2112:
+      :grade: U
+      :result: RA
+    GE2115:
+      :grade: A
+      :result: PASS
+    GE2116:
       :grade: S
       :result: PASS
-    IT2024:
+    HS2111:
+      :grade: U
+      :result: RA
+    MA2111:
+      :grade: E
+      :result: PASS
+    PH2111:
+      :grade: E
+      :result: PASS
+  :name: AJAY FABIAN P A
+211512104004:
+  :grades:
+    CY2111:
+      :grade: C
+      :result: PASS
+    GE2111:
+      :grade: C
+      :result: PASS
+    GE2112:
+      :grade: B
+      :result: PASS
+    GE2115:
+      :grade: S
+      :result: PASS
+    GE2116:
+      :grade: S
+      :result: PASS
+    HS2111:
       :grade: D
       :result: PASS
-    IT2032:
-      :grade: B
+    MA2111:
+      :grade: A
       :result: PASS
-    MG2452:
-      :grade: C
+    PH2111:
+      :grade: A
       :result: PASS
-  :name: ATHITHYAN V M
-23009104010:
+  :name: AKILA G
+211512104005:
   :grades:
-    CS2401:
-      :grade: C
+    CY2111:
+      :grade: A
       :result: PASS
-    CS2402:
-      :grade: C
-      :result: PASS
-    CS2403:
-      :grade: C
-      :result: PASS
-    CS2405:
+    GE2111:
       :grade: S
       :result: PASS
-    CS2406:
-      :grade: S
-      :result: PASS
-    IT2024:
-      :grade: C
-      :result: PASS
-    IT2032:
+    GE2112:
       :grade: B
       :result: PASS
-    MG2452:
+    GE2115:
+      :grade: S
+      :result: PASS
+    GE2116:
+      :grade: S
+      :result: PASS
+    HS2111:
       :grade: C
       :result: PASS
-  :name: AYUB ALI J
+    MA2111:
+      :grade: A
+      :result: PASS
+    PH2111:
+      :grade: A
+      :result: PASS
+  :name: AKSHAYA R
+211512104006:
+  :grades:
+    CY2111:
+      :grade: C
+      :result: PASS
+    GE2111:
+      :grade: D
+      :result: PASS
+    GE2112:
+      :grade: C
+      :result: PASS
+    GE2115:
+      :grade: A
+      :result: PASS
+    GE2116:
+      :grade: S
+      :result: PASS
+    HS2111:
+      :grade: B
+      :result: PASS
+    MA2111:
+      :grade: B
+      :result: PASS
+    PH2111:
+      :grade: A
+      :result: PASS
+  :name: ANISHA S
+211512104007:
+  :grades:
+    CY2111:
+      :grade: C
+      :result: PASS
+    GE2111:
+      :grade: E
+      :result: PASS
+    GE2112:
+      :grade: D
+      :result: PASS
+    GE2115:
+      :grade: S
+      :result: PASS
+    GE2116:
+      :grade: S
+      :result: PASS
+    HS2111:
+      :grade: B
+      :result: PASS
+    MA2111:
+      :grade: B
+      :result: PASS
+    PH2111:
+      :grade: B
+      :result: PASS
+  :name: ANISHA S
+211512104008:
+  :grades:
+    CY2111:
+      :grade: A
+      :result: PASS
+    GE2111:
+      :grade: D
+      :result: PASS
+    GE2112:
+      :grade: B
+      :result: PASS
+    GE2115:
+      :grade: S
+      :result: PASS
+    GE2116:
+      :grade: A
+      :result: PASS
+    HS2111:
+      :grade: B
+      :result: PASS
+    MA2111:
+      :grade: B
+      :result: PASS
+    PH2111:
+      :grade: B
+      :result: PASS
+  :name: ANITHA ST
+211512104009:
+  :grades:
+    CY2111:
+      :grade: A
+      :result: PASS
+    GE2111:
+      :grade: S
+      :result: PASS
+    GE2112:
+      :grade: C
+      :result: PASS
+    GE2115:
+      :grade: S
+      :result: PASS
+    GE2116:
+      :grade: S
+      :result: PASS
+    HS2111:
+      :grade: C
+      :result: PASS
+    MA2111:
+      :grade: A
+      :result: PASS
+    PH2111:
+      :grade: A
+      :result: PASS
+  :name: APARNA S
+211512104010:
+  :grades:
+    CY2111:
+      :grade: S
+      :result: PASS
+    GE2111:
+      :grade: B
+      :result: PASS
+    GE2112:
+      :grade: A
+      :result: PASS
+    GE2115:
+      :grade: S
+      :result: PASS
+    GE2116:
+      :grade: S
+      :result: PASS
+    HS2111:
+      :grade: B
+      :result: PASS
+    MA2111:
+      :grade: S
+      :result: PASS
+    PH2111:
+      :grade: A
+      :result: PASS
+  :name: ARAVINDHAN V

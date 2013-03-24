@@ -34,10 +34,15 @@ class Schools9
   public
 
   def scrape
-
+    puts @reg_nos.inspect
+    puts @url
     @reg_nos.each do |reg_no|
-      doc=Nokogiri::HTML(open("#{@url}?htno=#{reg_no}"))
+      url=@url+"?htno="+reg_no.to_s
+      puts url
+      doc=Nokogiri::HTML(open(url))
+      puts doc
       cells=doc.css("td")
+      puts cells
 
       @results[reg_no]={}
       @results[reg_no][:grades]={}
@@ -66,6 +71,7 @@ class Schools9
         @results.delete(reg_no)
       end
       @count+=1
+      puts @results[reg_no]
     end
   end
 

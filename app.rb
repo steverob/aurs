@@ -14,6 +14,8 @@ configure do
 end
 
 helpers do
+  include Rack::Utils
+
   def write_to_buffer(results,dummy)
     File.open("tmp/buffer.yml", "w") {|f| f.write(results.to_yaml) }
   end
@@ -21,6 +23,9 @@ helpers do
   def read_from_buffer
     YAML.load(File.open("tmp/buffer.yml", "r"))
   end
+
+  alias_method :h, :escape_html
+
 end
 
 
@@ -48,12 +53,12 @@ post "/wait" do
   @start=params[:start]
   @ending=params[:end]
   if params[:site]=="schools9"
-    @url="/schools9_scrape?url=#{params[:url]}&start=#{@start}&end=#{@ending}"
+    @url="/schools9_scrape?url="+params[:url]+"&start="+@start+"&"+"end="+@ending
   elsif params[:site]=="chennai_edu"
     if File.extname(params[:url])==""
       redirect to "/chennai_edu_details"
     end
-    @url="/chennai_edu_scrape?url=#{params[:url]}&start=#{@start}&end=#{@ending}"
+    @url="/chennai_edu_scrape?url="+params[:url]+"&start="+@start+"&"+"end="+@ending
   end
   erb :wait
 end
