@@ -18,6 +18,7 @@ class Schools9
   end
 
   protected
+  #TODO new comment
     def generate_reg_nos
       reg=@start
       while reg!=@ending+1
