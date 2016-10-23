@@ -6,7 +6,7 @@ require 'csv'
 
 class Schools9
   attr_accessor :results
-
+  #FIXME comment
   def initialize(url,start,ending)
     @url=url
     @start=start.to_i
