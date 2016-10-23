@@ -1,5 +1,6 @@
 require 'mechanize'
 
+
 class ChennaiResults
   attr_accessor :results
 
@@ -54,6 +55,7 @@ class ChennaiResults
           next
         elsif t.text=="Degree & Branch " || t.text=~ /B.E.(.*)/ || t.text=="Subject" || t.text=="Grade" || t.text=="Result"
           next
+        #FIXME this is too compelx man!
         elsif t.text=='Name'
           @results[reg_no][:name]=data[i+1].text
         elsif t.text=="PASS" || t.text=="RA" || t.text=="A"|| t.text=="B"|| t.text=="C"|| t.text=="D"|| t.text=="E"|| t.text=="S"|| t.text=="U"|| t.text=~ /WH(.*)/ || t.text=="AB"|| t.text=="W"|| t.text=="SA" || t.text=="SE"|| t.text=="A.B"|| t.text=="I"|| t.text=="WD"|| t.text==" "|| t.text=="BRK"|| t.text==""
